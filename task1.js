@@ -31,3 +31,7 @@ window.addEventListener("scroll", function () {
         header.style.background = "#0d1b2a";
     }
 });
+function submitForm(event) {
+    event.preventDefault();
+    alert("Thank you! We received your details.");
+}
